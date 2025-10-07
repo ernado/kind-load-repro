@@ -1,3 +1,5 @@
+set -ex
+
 kind create cluster --config kind.yml
 docker pull quay.io/cilium/cilium:v1.18.2@sha256:858f807ea4e20e85e3ea3240a762e1f4b29f1cb5bbd0463b8aa77e7b097c0667
 docker pull quay.io/cilium/tetragon-operator:v1.5.0
