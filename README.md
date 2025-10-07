@@ -1,6 +1,8 @@
 # README
 
+```
 bash [commands.sh](commands.sh)
+```
 
 ## Cleanup
 
